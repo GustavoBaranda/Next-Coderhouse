@@ -9,9 +9,9 @@ const roboto = Roboto({
   });
 
 export const metadata = {
-  title: "Cerveceria",
-  description: "Tu cerveveria",
-  keywords: ["cerveceria", "beer"]
+  title: "LasVerde",
+  description: "Lasverde",
+  keywords: ["jugo", "natural"]
 };
 
 export default function RootLayout({ children }) {
