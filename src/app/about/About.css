@@ -1,0 +1,118 @@
+.aboutContainer{
+  padding-top: 150px;  
+}
+
+.historyContainer {
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8%;
+  padding-bottom: 75px;
+  margin: 0 3%;
+  text-align: justify;
+}
+
+.historyContent {
+  height: 100%;
+}
+
+.historyTitle {
+ font-size: 32px;
+ font-weight: bold;
+}
+
+.historyText {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.historyImageContent {
+  width: 100%;
+  max-width: 468px;
+}
+
+.historyImageContent img{
+  margin: 0 auto;
+  width: 448px;
+}  
+  
+.missionAndVisionContainer{
+  background: #EBEBEB;
+  padding-top: 75px;
+}
+
+.missionAndVisionContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8%;
+  padding-bottom: 75px;
+  margin: 0 3%;
+  text-align: justify;  
+}
+
+.missionContent {
+  height: 100%;  
+}
+
+.missionTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.missionSubTitle {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.missionText {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.visionImageContent {
+  width: 100%;
+  max-width: 468px;  
+}
+
+.visionImageContent img{
+  margin: 0 auto;  
+  width: 448px;
+}
+
+.productiveProcessContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;    
+  gap: 8%;
+  padding-bottom: 75px;
+  margin: 0 3%;
+  text-align: justify; 
+}
+
+.productiveProcessContent {
+  height: 100%;
+}
+
+.productiveProcessTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.productiveProcessText {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+
+.productiveProcessImageContent {
+  width: 100%;
+  max-width: 468px;
+  text-align: center;
+}
+
+.productiveProcessImageContent img{
+  margin: 0 auto;
+  width: 448px;
+}

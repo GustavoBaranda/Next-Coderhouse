@@ -1,0 +1,138 @@
+
+.container-slider {
+    position: relative;
+    margin: 0 auto;
+    max-width: 98%;
+    height: 500px;
+    margin: 100px auto 100px auto;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  } 
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+    margin: 0 auto;
+  } 
+   
+  .slide
+  .btn-container {
+    position: absolute;
+    bottom: 15%;
+    left: 6%;
+  }
+  
+  .slide
+  .tittleSliderContainer {
+    top: 25%;
+    left: 6%;
+    position: absolute;
+    max-width: 100%;
+    color: #fff;
+  }
+  
+  .slide
+  .tittleSliderContainer 
+   h2{
+    font-size:  32px;
+    font-weight:  bold;
+    margin: 0
+  }
+  
+  .slide
+  .subTittleSliderContainer {
+    top: 45%;
+    left: 6%;
+    position: absolute;
+    max-width: 500px;
+    color: #fff;
+  }
+  
+  .slide
+  .subTittleSliderContainer
+   h3{
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  .slide
+   img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .active-anim {
+    opacity: 1;
+  }
+  
+  .btn-slide {
+      display : flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid rgba(34, 34, 34, 0.287);
+      cursor: pointer;
+  }
+  
+  .btn-slide img {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+  }
+  
+  .prev {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-60%);
+    opacity: 0.4;
+  }
+  
+  .prev:hover {
+    opacity: 1;
+  }
+  
+  .next {
+    top: 50%;
+    right: 20px;;
+    transform: translateY(-60%);
+    opacity: 0.4;
+  }
+  
+  .next:hover {
+    opacity: 1;
+  }
+  
+  .container-dots {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%); 
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0 5px;
+    background: #089547;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background: #404e4e;
+    cursor: pointer;
+  }  
+  
